@@ -11,15 +11,15 @@ int Multiply(int iNo1, int iNo2, int iNo3)
 	{
 		return FALSE;
 	}
-	else if(iNo1 == 0)
+	if(iNo1 == 0)
 	{
 		iNo1 = 1;
 	}
-	else if(iNo2 == 0)
+	if(iNo2 == 0)
 	{
 		iNo2 =1;
 	}
-	else if(iNo3 == 0)
+	 if(iNo3 == 0)
 	{
 		iNo3 = 1;
 	}
